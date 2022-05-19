@@ -1,0 +1,33 @@
+.container{
+    background-color: red;
+}
+.body{
+    padding: 0;
+    width: 100wh;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    flex: 25%;
+}
+.image img{
+    width: 300px;
+    height: 200px;
+}
+@media(max-width:1000px){
+    .image{
+        flex: 50%;
+    }
+}
+@media(max-width:800px){
+    .image{
+        flex: 25%;
+    }
+}
+@media(max-width:375){
+    .image{
+        flex: 100%;
+    }
+}
